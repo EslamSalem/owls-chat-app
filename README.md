@@ -1,5 +1,5 @@
 # Owls Chatting App 🦉
-This a simple chat simulation android application made by me and a colleague in our sophomore year of CS as part of an Android Development summer training.
+This a simple chat simulation android application made by me and my colleagues in our sophomore year of CS as part of an Android Development summer training.
 # Overview
 This project was implemented by Java and utilized OOP concepts. We designed the layout of the application with XML code and simple draggin and dropping. We also integrated a database to store the user's messages and friends.
 # Screenshots

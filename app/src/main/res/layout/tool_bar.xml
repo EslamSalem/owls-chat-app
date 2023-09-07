@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+  <RelativeLayout
+    android:id="@+id/tool_bar"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="75dp"
+    android:padding="8dp"
+    android:background="@drawable/tool_bar_round"
+    android:layout_margin="2dp"
+    android:layout_marginTop="8dp" >
+
+<TextView
+    android:id="@+id/tool_bar_text_view"
+    android:layout_width="wrap_content"
+    android:layout_height="match_parent"
+    android:layout_centerVertical="true"
+    android:layout_alignParentStart="true"
+    android:text="User Name"
+    android:paddingStart="16dp"
+    android:paddingEnd="16dp"
+    android:padding="4dp"
+    android:gravity="center"
+    android:textSize="20dp"
+    android:textStyle="bold"
+    android:textColor="@color/black"
+    />
+    <ImageView
+        android:id="@+id/tool_bar_user_image"
+        android:layout_width="75dp"
+        android:layout_height="70dp"
+        android:layout_alignParentEnd="true"
+        android:layout_centerVertical="true"
+        android:background="@drawable/round_pic"
+        android:src="@drawable/ic_baseline_mood_24"
+        android:layout_marginEnd="16dp"
+        />
+  </RelativeLayout>

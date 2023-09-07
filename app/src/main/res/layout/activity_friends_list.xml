@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".FriendsListActivity"
+    android:background="@drawable/list_view_round"
+    android:padding="8dp">
+
+    <include layout="@layout/tool_bar"
+        android:id="@+id/tool_bar" />
+<ListView
+    android:id="@+id/friends_list_view"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_below="@+id/tool_bar"
+    android:padding="8dp"
+    android:layout_marginTop="8dp"
+    />
+</RelativeLayout>

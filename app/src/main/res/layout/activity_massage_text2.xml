@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout  xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MassageTextActivity"
+    android:background="#DEF7FA">
+    <TextView
+        android:id="@+id/massage_text_activity_subject"
+        android:layout_width="match_parent"
+        android:layout_height="75dp"
+        android:background="@drawable/card_layout"
+        android:layout_marginTop="64dp"
+        android:gravity="center"
+        android:textSize="24dp"
+        android:textColor="@color/black">
+
+    </TextView>
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="400dp"
+        app:cardCornerRadius="32dp"
+        android:layout_below="@id/massage_text_activity_subject"
+        android:layout_centerVertical="true"
+        android:layout_marginTop="32dp"
+        android:background="@drawable/card_layout"
+        android:elevation="8dp">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        >
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="400dp"
+            android:background="@drawable/card_layout">
+
+            <TextView
+                android:id="@+id/massage_text_activity_text"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="start|top"
+                android:textColor="@color/black"
+                android:padding="16dp"
+                android:textSize="20sp" />
+
+
+        </RelativeLayout>
+    </ScrollView>
+
+    </androidx.cardview.widget.CardView>
+
+</RelativeLayout>

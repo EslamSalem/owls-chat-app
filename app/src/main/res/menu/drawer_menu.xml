@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <item
+        android:id="@+id/friends_list"
+        android:icon="@drawable/ic_baseline_people_24"
+        android:title="Friends List" />
+    <item
+        android:id="@+id/received_messages"
+        android:icon="@drawable/ic_baseline_email_24"
+        android:title="Received Messages" />
+    <item
+        android:id="@+id/sent_messages"
+        android:icon="@drawable/ic_baseline_done_all_black_24"
+        android:title="Sent Messages" />
+
+    <item
+        android:id="@+id/send_messages"
+        android:icon="@drawable/ic_baseline_done_all_blue_24"
+        android:title="Send a Message" />
+    <item
+        android:id="@+id/add_friend"
+        android:icon="@drawable/ic_baseline_search_24"
+        android:title="Add friend by ID" />
+    <item
+        android:id="@+id/log_out"
+        android:icon="@drawable/ic_baseline_login_24"
+        android:title="Log Out" />
+
+</menu>

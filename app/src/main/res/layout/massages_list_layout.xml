@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="128dp"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_margin="8dp"
+    android:elevation="16dp"
+    app:cardCornerRadius="32dp"
+    >
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="8dp"
+        android:background="@drawable/card_layout"
+        >
+        <ImageView
+            android:id="@+id/massages_list_image_view"
+            android:layout_width="100dp"
+            android:layout_height="match_parent"
+            android:src="@drawable/ic_baseline_mood_24"
+            android:background="@drawable/round_pic"
+            android:layout_alignParentStart="true"
+            android:layout_centerVertical="false"
+            >
+        </ImageView>
+
+        <TextView
+            android:id="@+id/massages_list_text_view"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_toEndOf="@id/massages_list_image_view"
+            android:layout_alignParentTop="true"
+            android:gravity="center"
+            android:text="User Name"
+            android:textColor="@color/white"
+            android:textSize="20sp">
+        </TextView>
+
+        <TextView
+            android:id="@+id/massages_list_text_view2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Subject"
+            android:textSize="20sp"
+            android:textColor="@color/white"
+            android:layout_toEndOf="@id/massages_list_image_view"
+            android:layout_centerVertical="true"
+            android:gravity="center"
+            >
+        </TextView>
+
+
+        <TextView
+            android:id="@+id/massages_list_text_view3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="2019-08-18-11:30:35.355"
+            android:textSize="16sp"
+            android:textColor="@color/white"
+            android:layout_toEndOf="@id/massages_list_image_view"
+            android:layout_alignParentBottom="true"
+            android:gravity="center"            >
+        </TextView>
+
+    </RelativeLayout>
+</androidx.cardview.widget.CardView>
